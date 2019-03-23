@@ -8,7 +8,7 @@ sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf
 
 [Service]
 
-Environment="ALL_PROXY=socks5://127.0.0.1:1080"
+Environment="ALL_PROXY=socks5://127.0.0.1:1080/"
 
 保存
 
